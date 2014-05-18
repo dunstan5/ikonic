@@ -1,15 +1,8 @@
 'use strict'
-window.App = angular.module('ikonicApp', ['ngRoute'])
-window.App.config(['$provide', ($provide) ->
-  $provide.decorator "$rootScope", (['$delegate', ($delegate) ->
-    Object.defineProperty $delegate.constructor::, "$onRootScope",
-      value: (name, listener) ->
-        unsubscribe = $delegate.$on(name, listener)
-        @$on "$destroy", unsubscribe
-      enumerable: false
-    $delegate
+window.App = angular
+  .module('ikonicApp', [
+    'ngRoute'
   ])
-])
   .config ($routeProvider) ->
     $routeProvider
       .when '/main',
@@ -26,4 +19,3 @@ window.App.config(['$provide', ($provide) ->
         controller: 'MainCtrl'
       .otherwise
         redirectTo: '/main'
-
