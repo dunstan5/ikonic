@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "nav.js",
+  "sourceRoot": "",
+  "sources": [
+    "nav.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;CAAA,CAAA,CAAU,EAAV,CAAM,GAAN;WACE;CAAA,CAAU,CAAV,GAAA,EAAA;CAAA,CAEE,GADF,CAAA;CACE,CAAM,CAAN,CAAA,IAAA;QAFF;CAAA,CAGa,IAAb,KAAA,MAHA;CAAA,CAIY,GAJZ,CAIA,IAAA;CAL0B;CAA5B,EAA4B;CAA5B"
+}
