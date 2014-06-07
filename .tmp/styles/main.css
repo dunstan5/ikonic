@@ -29,6 +29,18 @@ body {
   padding-bottom: 19px;
 }
 
+.header .nav {
+  margin-top: 2em;
+}
+
+.logo {
+  background-image: url('/images/small.png');
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+}
+
 /* Custom page footer */
 
 .footer {
